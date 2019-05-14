@@ -1,57 +1,35 @@
 {
-  "name": "react-native-snackbar",
-  "version": "0.5.5",
-  "description": "Material Design \"Snackbar\" component for Android and iOS.",
-  "main": "lib/index.js",
-  "types": "src/index.d.ts",
-  "files": [
-    "src",
-    "lib",
-    "android",
-    "ios",
-    "RNSnackbar.podspec"
-  ],
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint . --ext .js,.jsx",
-    "flow": "flow src",
-    "clean": "rm -rf lib",
-    "build": "npm run clean && babel src --out-dir lib --ignore src/__tests__",
-    "prepublish": "npm run build"
-  },
-  "jest": {
-    "preset": "react-native",
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
-    },
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/"
-    ],
-    "verbose": true
-  },
-  "repository": {
+  "_from": "git+https://github.com/bagushrd/react-native-snackbar.git",
+  "_id": "react-native-snackbar@0.5.5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-snackbar",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/cooperka/react-native-snackbar.git"
+    "raw": "react-native-snackbar@git+https://github.com/bagushrd/react-native-snackbar.git",
+    "name": "react-native-snackbar",
+    "escapedName": "react-native-snackbar",
+    "rawSpec": "git+https://github.com/bagushrd/react-native-snackbar.git",
+    "saveSpec": "git+https://github.com/bagushrd/react-native-snackbar.git",
+    "fetchSpec": "https://github.com/bagushrd/react-native-snackbar.git",
+    "gitCommittish": null
   },
-  "keywords": [
-    "react-native",
-    "component",
-    "ios",
-    "android",
-    "material design",
-    "snackbar",
-    "snack bar"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Azendoo",
-  "license": "MIT",
+  "_resolved": "git+https://github.com/bagushrd/react-native-snackbar.git#9fd90de47e5b13116e00838f9d166b97eca574b4",
+  "_spec": "react-native-snackbar@git+https://github.com/bagushrd/react-native-snackbar.git",
+  "_where": "/Users/bagusherdiawan/Coding/react-native/ragamindo-consumer-app-rn-59",
+  "author": {
+    "name": "Azendoo"
+  },
   "bugs": {
     "url": "https://github.com/cooperka/react-native-snackbar/issues"
   },
-  "homepage": "https://github.com/cooperka/react-native-snackbar",
-  "peerDependencies": {
-    "react": ">=15.1 || >=16.0.0-alpha.6",
-    "react-native": ">=0.40"
-  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Material Design \"Snackbar\" component for Android and iOS.",
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.47",
     "@babel/core": "7.0.0-beta.47",
@@ -66,5 +44,53 @@
     "jest": "23.5.0",
     "react": "16.4.1",
     "react-native": "0.56"
-  }
+  },
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "RNSnackbar.podspec"
+  ],
+  "homepage": "https://github.com/cooperka/react-native-snackbar",
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/"
+    ],
+    "verbose": true
+  },
+  "keywords": [
+    "react-native",
+    "component",
+    "ios",
+    "android",
+    "material design",
+    "snackbar",
+    "snack bar"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-native-snackbar",
+  "peerDependencies": {
+    "react": ">=15.1 || >=16.0.0-alpha.6",
+    "react-native": ">=0.40"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperka/react-native-snackbar.git"
+  },
+  "scripts": {
+    "build": "npm run clean && babel src --out-dir lib --ignore src/__tests__",
+    "clean": "rm -rf lib",
+    "flow": "flow src",
+    "lint": "eslint . --ext .js,.jsx",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "types": "src/index.d.ts",
+  "version": "0.5.5"
 }
